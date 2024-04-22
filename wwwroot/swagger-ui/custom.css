@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Sans Serif";
+  src:
+    local("Verdana Pro");
+}
+
+@supports font-tech(color-COLRv1) and font-format(opentype) {
+  @font-face {
+    font-family: "Sans Serif";
+    src:    
+      url("./fonts/RedHatDisplay-Black.otf") format("opentype") tech("color-COLRv1"),
+      url("./fonts/RedHatText-Italic.otf") format("opentype") tech("color-COLRv1"),
+      url("./fonts/RedHatDisplay-MediumItalic.otf") format("opentype") tech("color-COLRv1"),
+      url("./fonts/RedHatDisplay-Regular.otf") format("opentype") tech("color-COLRv1"),
+      url("./fonts/RedHatText-Bold.otf") format("opentype") tech("color-COLRv1"),
+      url("./fonts/RedHatText-Regular.otf") format("opentype") tech("color-COLRv1");
+  }
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+  align-items: center;
+  background: cornflowerblue;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  display: flex;
+  min-height: 50px;
+  padding: 8px 20px;
+}
+
+.swagger-ui.models.models-control,
+.swagger-ui.models.model-container {
+  color: darkviolet;
+}
+
+.swagger-ui select {
+  background: cornflowerblue;
+}
+
+.swagger-ui a.nostyle,
+.swagger-ui a.nostyle:visited,
+.swagger-ui section.models h4,
+.swagger-ui .model-title,
+.swagger-ui .info a {
+  color: darkviolet;
+  cursor: progress;
+}

@@ -1,0 +1,17 @@
+#  ASP DOTNET GITIGNORE
+
+.vscode/*
+
+bin/*
+bin/**
+
+node_modules/*
+node_modules/**
+
+obj/Debug/*
+obj/Debug/**
+
+wwwroot/fonts/*
+
+BrunoTodo/*
+BrunoTodo/**
